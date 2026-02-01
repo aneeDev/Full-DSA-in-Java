@@ -18,8 +18,8 @@ package main.java;
  * </ul>
  * <b>Links:</b>
  * <ul>
- *   <li>Leetcode: <a href="https://leetcode.com/problems/reverse-integer/">7. Reverse Integer</a></li>
- *   <li>GFG: <a href="https://www.geeksforgeeks.org/reverse-digits-integer-overflow-handled/">Reverse digits</a></li>
+ *   <li>Leetcode: <a href="https://leetcode.com/problems/reverse-integer/">7. Reverse Integer (M)</a></li>
+ *   <li>GFG: <a href="https://www.geeksforgeeks.org/reverse-digits-integer-overflow-handled/">Reverse digits (E)</a></li>
  * </ul>
  */
 public class reverseNumber {
