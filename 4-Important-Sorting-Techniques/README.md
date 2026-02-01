@@ -17,4 +17,11 @@ This directory contains implementations of various important sorting algorithms.
         <td><a href="https://www.geeksforgeeks.org/problems/selection-sort/1">Selection Sort</a></td>
         <td>NA</td>
     </tr>
+    <tr>
+        <td>2</td>
+        <td>Bubble Sort</td>
+        <td style="background-color:#198754; color:white;">Easy</td>
+        <td><a href="https://www.geeksforgeeks.org/problems/bubble-sort/1">Bubble Sort</a></td>
+        <td>NA</td>
+    </tr>
 </table>
