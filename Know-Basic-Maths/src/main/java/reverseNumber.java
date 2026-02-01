@@ -38,8 +38,9 @@ public class reverseNumber {
      * @param x
      * @return the reversed integer or 0 if it overflows/underflows)
      */
-    public int reverse(int x) {
+    public static int reverse(int x) {
         int rev = 0;
+        // negative sign is preserved as we are working with int type
         while (x != 0) {
             int digit = x % 10;
             x /= 10;
@@ -54,5 +55,12 @@ public class reverseNumber {
             rev = rev * 10 + digit;
         }
         return rev;
+    }
+
+    public static void main(String[] args) {
+        int number = -12345;
+        int reversedNumber = reverse(number);
+        System.out.println("Original Number: " + number);
+        System.out.println("Reversed Number: " + reversedNumber);
     }
 }
