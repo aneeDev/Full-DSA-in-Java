@@ -20,12 +20,26 @@ package main.java;
  * </ul>
  * <b>Links:</b>
  * <ul>
- *   <li>GFG: <a href="https://www.geeksforgeeks.org/problems/armstrong-numbers2727/1">Armstrong Numbers</a></li>
- *   <li>Leetcode: <a href="https://leetcode.com/problems/armstrong-number/">1134. Armstrong Number</a></li>
+ *   <li>GFG: <a href="https://www.geeksforgeeks.org/problems/armstrong-numbers2727/1">Armstrong Numbers (E)</a></li>
+ *   <li>Leetcode: <a href="https://leetcode.com/problems/armstrong-number/">1134. Armstrong Number (E)</a></li>
  * </ul>
  */
 public class armstrongNumber {
 
+    /**
+     * Checks if an integer is an Armstrong number.
+     * <p>
+     *     <b>Complexity Analysis:</b>
+     *     <ul>
+     *         <li>Time Complexity: O(log<sub>10</sub>d), where d is the number of digits in n.</li>
+     *         <li>Space Complexity: O(1) as no extra space is used
+     *         </li>
+     *         </ul>
+     * </p>
+     *
+     * @param n the integer to check
+     * @return true if n is an Armstrong number, false otherwise
+     */
     public static boolean isArmstrong(int n) {
 
         int originalNumber = n;

@@ -26,6 +26,21 @@ package main.java;
  */
 public class palindromeNumber {
 
+    /**
+     * Checks if an integer is a palindrome.
+     * <p>
+     *     <b>Complexity Analysis:</b>
+     *     <ul>
+     *         <li>Time Complexity: O(log<sub>10</sub>n), where n is the number of digits
+     *         in the integer x.</li>
+     *         <li>Space Complexity: O(1) as no extra space is used
+     *         </li>
+     *         </ul>
+     * </p>
+     *
+     * @param x
+     * @return true if x is a palindrome, false otherwise
+     */
     public static boolean isPalindrome(int x) {
         // Negative numbers are not palindromes
         if (x < 0) {
