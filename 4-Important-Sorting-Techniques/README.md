@@ -66,4 +66,16 @@ This directory contains implementations of various important sorting algorithms.
             </ul>
         </td>
     </tr>
+    <tr>
+        <td>6</td>
+        <td>Sort 0s, 1s and 2s</td>
+        <td style="background-color:#fd7e14; color:white;">Medium</td>
+        <td><a href="https://www.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s4231/1">Sort 0s, 1s, and 2s </a></td>
+        <td><a href="https://leetcode.com/problems/sort-colors/description/">Sort Colors</a></td>
+        <td>
+            <ul>
+                <li><b>Pattern:</b> [3-Pointers] Dutch National Flag Algorithm (O(n), O(1))</li>
+            </ul>
+        </td>
+    </tr>
 </table>
