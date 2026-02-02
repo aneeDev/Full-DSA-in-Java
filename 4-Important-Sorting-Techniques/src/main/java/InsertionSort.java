@@ -5,8 +5,6 @@ package main.java;
  * <hr>
  * Given an array arr[] of positive integers.The task is to complete the insertsort() function which is used to implement Insertion Sort.
  *
- * <p>Bubble Sort repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order.
- *
  * <p>Examples:
  * <ul>
  *   <li>Input: arr[] = [4, 1, 3, 9, 7]</li>
@@ -18,7 +16,7 @@ package main.java;
  * </ul>
  * <pre>
  * int[] arr = {4, 1, 3, 9, 7};
- * insertionSort.sort(arr);
+ * InsertionSort.sort(arr);
  * arr is now [1, 3, 4, 7, 9]
  * </pre>
  *
@@ -30,7 +28,7 @@ package main.java;
  *
  * @see <a href="https://www.geeksforgeeks.org/problems/insertion-sort/1">GFG: Insertion Sort</a>
  */
-public class insertionSort {
+public class InsertionSort {
 
     /**
      * Sorts the given array using Insertion Sort algorithm.

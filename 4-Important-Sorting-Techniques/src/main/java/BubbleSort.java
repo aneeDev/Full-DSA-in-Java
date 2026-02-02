@@ -18,7 +18,7 @@ package main.java;
  * </ul>
  * <pre>
  * int[] arr = {4, 1, 3, 9, 7};
- * bubbleSort.sort(arr);
+ * BubbleSort.sort(arr);
  * arr is now [1, 3, 4, 7, 9]
  * </pre>
  *
@@ -30,7 +30,7 @@ package main.java;
  *
  * @see <a href="https://www.geeksforgeeks.org/problems/bubble-sort/1">GFG: Bubble Sort</a>
  */
-public class bubbleSort {
+public class BubbleSort {
 
     /**
      * Sorts the given array using Bubble Sort algorithm.

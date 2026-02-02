@@ -18,7 +18,7 @@ package main.java;
  * </ul>
  * <pre>
  * int[] arr = {4, 1, 3, 9, 7};
- * selectionSort.sort(arr);
+ * SelectionSort.sort(arr);
  * // arr is now [1, 3, 4, 7, 9]
  * </pre>
  *
@@ -30,7 +30,7 @@ package main.java;
  *
  * @see <a href="https://www.geeksforgeeks.org/problems/selection-sort/1">GFG: Selection Sort (E)</a>
  */
-public class selectionSort {
+public class SelectionSort {
 
     /**
      * Sorts the given array using Selection Sort algorithm.
